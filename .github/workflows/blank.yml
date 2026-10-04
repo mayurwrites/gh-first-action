@@ -1,0 +1,10 @@
+name: Second Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-slim
+    steps:
+      - name: Print greeting
+        run: echo "Hello India!"
+      - name: Print goodbye
+        run: echo "Done - Chao!"
