@@ -7,6 +7,6 @@ jobs:
       - name: Print greeting
         run: |
           echo "Hello World!"
-          echo "This is for multiline print by adding the `|` pipe symbol."
+          echo "This is for multiline print by adding the pipe symbol."
       - name: Print goodbye
         run: echo "Done - bye!"
